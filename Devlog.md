@@ -92,3 +92,6 @@ $ bundle exec jekyll serve
 <time class="timestamp--time">07:03 AM</time>
 I just published the gem to RubyGems [here](https://rubygems.org/gems/arrow-jekyll-theme)
 
+
+<time class="timestamp--time">07:22 AM</time>
+I just noticed I forgot to update the link to the RSS feed. Fixing and pushing an update right now.
