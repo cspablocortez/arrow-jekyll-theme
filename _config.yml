@@ -1,7 +1,7 @@
 title: Arrow Theme
 author: cspablocortez
-url: ""                             # your domain name
-baseurl: ""                         # leave blank if hosted at the root
+url: "https://cspablocortez.github.io"                             # your domain name
+baseurl: "/arrow-jekyll-theme"                         # leave blank if hosted at the root
 timezone: America/Los_Angeles
 description: >-
   Arrow is a text-first Jekyll theme featuring minimal CSS 

@@ -4,6 +4,10 @@ Arrow is a text-first Jekyll theme featuring minimal CSS by relying on default b
 
 ![Screenshot](https://i.ibb.co/CQsKPk8/2025-01-23-06-37-08-localhost-4aee2ad31133.png)
 
+## Demo site
+
+You can check out a demo of the site [here](https://cspablocortez.github.io/arrow-jekyll-theme/)
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:

@@ -1,11 +1,11 @@
 <footer role="contentinfo">
     <h4>Menu</h4>
     <ul id="menu">
-        <li><a href="/">Home</a></li>
-        <li><a href="/posts">Posts</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/devlog">Devlog</a></li>
-        <li><a href="/feed.xml">RSS</a></li>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
+        <li><a href="{{ '/about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/devlog' | relative_url }}">Devlog</a></li>
+        <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
     </ul>
     <small>
         The <a href="https://github.com/cspablocortez/arrow-jekyll-theme">code for this project</a>

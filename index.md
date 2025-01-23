@@ -13,11 +13,11 @@ Arrow is a text-first Jekyll theme available as a Ruby gem. It features minimal 
     {% for post in site.posts limit:3 %}
     <li class="feed-item">
     	<p class="feed-item__date"><time>{{ post.date | date: "%Y-%m-%d"}}</time></p>
-    	<h1 class="feed-item__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    	<h1 class="feed-item__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h1>
     </li>
     {% endfor %}
     
-    <p style="margin-top: 1.5rem;"><a href="/posts">View all posts →</a></p>
+    <p style="margin-top: 1.5rem;"><a href="{{ '/posts' | relative_url }}">View all posts →</a></p>
 </ul>
 
 ## Features

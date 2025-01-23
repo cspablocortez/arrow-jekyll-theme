@@ -95,3 +95,9 @@ I just published the gem to RubyGems [here](https://rubygems.org/gems/arrow-jeky
 
 <time class="timestamp--time">07:22 AM</time>
 I just noticed I forgot to update the link to the RSS feed. Fixing and pushing an update right now.
+
+<time class="timestamp--time">07:40 AM</time>
+Updating relative_url links for Github Pages deployment.
+
+<time class="timestamp--time">07:51 AM</time>
+Looks like I have to temporarily remove the base_url when developing locally.
