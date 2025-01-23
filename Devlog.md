@@ -39,8 +39,35 @@ spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_da
 ## Building Gem
 
 ```shell
-$ bundle install Arrow.gemspec
+$ gem build Arrow.gemspec
+```
+
+## Installing locally for testing
+
+```shell
+$ bundle install ./arrow-jekyll-theme-0.1.0.gem
 ```
 
 ## Installing on new blog
+
+After creating a new site (possibly with `$ jekyll new site-name`), update the `_config.yml` file with this line:
+
+```yaml
+theme: arrow-jekyll-theme
+```
+
+Also update your Gemfile:
+
+```ruby
+gem "arrow-jekyll-theme"
+```
+
+And then execute:
+
+```shell
+$ bundle
+```
+
+
+
 
