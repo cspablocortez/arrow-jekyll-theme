@@ -11,8 +11,10 @@ Gem::Specification.new do |spec|
   spec.license       = "GPL-3.0-or-later"
   
   spec.required_ruby_version = ">= 3.0"
-
-  spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml|devlog\.md|index\.md|posts\.md)!i) }
+  
+  spec.files = `git ls-files -z`.split("\x0").select do |f|
+      f.match(%r!^(assets|_(includes|layouts)/|(LICENSE|README|devlog|index|posts)((\.(txt|md|markdown)|$)))!i)
+  end
   
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
   spec.add_development_dependency "jekyll", ">= 3.5", "< 4.4.0"

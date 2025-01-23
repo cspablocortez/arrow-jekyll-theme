@@ -36,6 +36,9 @@ Note: To include default index.md, posts.md, and devlog.md, I had to update the 
 spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml|Devlog\.md|index\.md|posts\.md)!i) }
 ```
 
+<time class="timestamp--time">06:32 AM</time>
+**Update**: These files are not automatically included, so I will make sure to note that in the README.md
+
 ## Building Gem
 
 ```shell
@@ -45,7 +48,13 @@ $ gem build Arrow.gemspec
 ## Installing locally for testing
 
 ```shell
-$ bundle install ./arrow-jekyll-theme-0.1.0.gem
+$ gem install ./arrow-jekyll-theme-0.1.0.gem
+```
+
+## Removing local gem
+
+```shell
+$ gem uninstall arrow-jekyll-theme
 ```
 
 ## Installing on new blog
@@ -65,9 +74,20 @@ gem "arrow-jekyll-theme"
 And then execute:
 
 ```shell
-$ bundle
+$ bundle install
 ```
 
+## Finding where gem was installed
+
+```shell
+$ bundle info arrow-jekyll-theme 
+```
+
+## Build Your Site
+
+```shell
+$ bundle exec jekyll serve
+```
 
 
 
