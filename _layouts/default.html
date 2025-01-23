@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+	<link rel="icon" href="data:,">
+	<title>{{ site.title }} | {{ page.title }}</title>
+	<link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/article.css">
+    <link rel="stylesheet" href="/assets/css/monokai.css">
+    
+    <meta name="theme-color" content="#FFF" media="(prefers-color-scheme: light)">    
+    <meta name="theme-color" content="#111" media="(prefers-color-scheme: dark)">
+
+</head>
+
+{% include header.html %}
+
+<main>
+    {{ content }}
+</main>
+
+{% include footer.html %}

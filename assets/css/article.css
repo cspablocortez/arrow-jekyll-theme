@@ -1,0 +1,33 @@
+/* Articles */
+
+.article hgroup * {
+  margin: 0;
+}
+
+.article hgroup time {
+  color: gray;
+}
+
+.tags {
+  margin-top: 2rem;
+}
+
+.fin {
+  text-align: center;
+  font-size: 90%;
+  color: var(--color-text--primary);
+  margin-block: 1rem 2rem;
+}
+
+.footnotes {
+  font-size: 90%;
+  margin-top: 2rem;
+  width: 100%;
+  border-top: 1px solid var(--color-border);
+}
+
+.footnotes:before {
+  content: "";
+  font-weight: bold;
+  font-size: 0.9rem;
+}

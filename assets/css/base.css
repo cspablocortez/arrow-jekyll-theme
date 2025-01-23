@@ -1,0 +1,151 @@
+:root {
+  --sans-serif: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --serif: 'Georgia','PT Serif', 'Garamond', serif;
+  --site-max-width: 650px;
+  
+  --color-bg: #fff;
+  
+  --color-text--primary: #000;
+  --color-text--code: #f9f2f4;
+  
+  --color-links: blue;
+  --color-links--visited: purple;
+  
+  --color-border: rgb(214, 214, 214);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #111;
+    
+    --color-text--primary: rgba(255, 255, 255, 0.86);
+    --color-text--code: #40282f;
+    
+    --color-links: #1f7de1;
+    --color-links--visited: rgb(181, 112, 181);
+    
+    --color-border: rgb(89, 87, 87);
+  }
+}
+
+* { box-sizing: border-box; }
+
+a {
+  color: var(--color-links);
+}
+
+a:visited {
+  color: var(--color-links--visited);
+}
+
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text--primary);
+	font-family: sans-serif;
+	line-height: 1.5;
+	margin-block: 1rem;
+	margin-inline: auto;
+	max-width: var(--site-max-width);
+  padding: 1rem;
+}
+
+nav {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+blockquote {
+	border-left: 2px solid gray;
+	padding-left: 1rem;
+}
+
+img { max-width: 100%; border-radius: 0.5rem;}
+
+figure {
+  text-align: center;
+  margin: -1rem;
+  margin-block: 2rem;
+}
+
+figcaption {  color: gray; font-size: 86%;}
+
+pre {
+	border: 1px solid;
+  border-radius: 0.25rem;
+	overflow: auto;
+	padding: 5px;
+}
+
+.language-plaintext {
+  background-color: var(--color-text--code);
+  border-radius: 4px;
+  color: #c7254e;
+  font-size: 95%;
+  padding: 2px 4px;
+}
+
+table {
+	text-align: left;
+	width: 100%;
+}
+
+.feed, #menu {
+	list-style: none;
+	padding: 0;
+}
+
+.feed-item {
+  margin-block: 0.8rem;
+}
+
+.feed-item__date {
+  font-size: 0.86rem;
+  color: gray;
+  margin: 0;
+}
+
+.feed-item__title {
+  font-weight: normal;
+  margin: 0;
+  font-size: 1rem;
+}
+
+#menu li {
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+footer {
+  margin-block: 4rem 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+/* Nifty Utility Classes */
+
+.placeholder-block {
+  height: 1rem;
+  background-color: #bbb6b6;
+}
+
+.timestamp--time {
+  color: gray;
+  font-size: 85%;
+  display: block;
+  max-width: fit-content;
+}
+
+.timestamp--date {
+  display: block;
+  margin-block: 2rem 1rem;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    margin-block: 2rem;
+  }
+}

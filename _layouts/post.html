@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="article">
+    <hgroup>
+        <h1>{{ page.title }}</h1>
+        <p><time>{{ page.date | date: "%a %B %d %Y"}}</time><p>
+    </hgroup>
+    <main>
+        {{ content }}
+    </main>
+</article>
+
+<div class="tags">
+    {% for tag in page.tags %}
+      <span style="font-size: 95%; color: gray;">#{{ tag }}</span>
+    {% endfor %}
+</div>
+
+<div class="fin">
+    ◆
+</div>
