@@ -25,3 +25,22 @@ Added monokai theme for code blocks, and moved some navigation elements around.
 
 <time class="timestamp--time">04:52 AM</time>
 Still have to rethink footnotes.
+
+<time class="timestamp--time">05:27 AM</time>
+Now I'm working on installing a local version of the gem after pushing it to Github. I guess first I should update the links.
+
+<time class="timestamp--time">05:50 AM</time>
+Note: To include default index.md, posts.md, and devlog.md, I had to update the `spec.files` line to this:
+
+```ruby
+spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml|Devlog\.md|index\.md|posts\.md)!i) }
+```
+
+## Building Gem
+
+```shell
+$ bundle install Arrow.gemspec
+```
+
+## Installing on new blog
+

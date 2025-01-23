@@ -16,7 +16,7 @@ I'm hoping this theme will allow other developer-writers to spend more time writ
 
 I hope others will find Taunt's initial work and my additions helpful for their own projects.
 
-If you have any suggestions, requests, or would like to contribute to the development of the theme, feel free to send me an email or check out the source code on Github.
+If you have any suggestions, requests, or would like to contribute to the development of the theme, feel free to send me an email or check out the [source code](https://github.com/cspablocortez/arrow-jekyll-theme) on Github.
 
 Best, <span style="display: block; margin: 0;">Pablo</span>
 
