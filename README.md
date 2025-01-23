@@ -28,10 +28,16 @@ Or install it yourself as:
 
 ## Usage
 
-After installing the theme, you can copy the default markdown files into your Jekyll site:
+After installing the theme, you should copy the default markdown files into your Jekyll site.
 
 ```bash
 cp -r path/to/arrow-jekyll-theme/*.md path/to/your-jekyll-site/
+```
+
+To find the correct path, run:
+
+```shell
+$ bundle info arrow-jekyll-theme 
 ```
 
 This will add the following files to your site:
@@ -42,6 +48,8 @@ This will add the following files to your site:
 - devlog.md
 
 Feel free to change or delete any of these files as you see fit.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
 ## Layouts
 
@@ -103,13 +111,6 @@ $ gem uninstall arrow-jekyll-theme
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/cspablocortez/arrow-jekyll-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `$ bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
 
 ## License
 
