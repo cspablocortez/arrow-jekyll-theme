@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "arrow-jekyll-theme"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["Pablo E. Cortez"]
   spec.email         = ["57056367+cspablocortez@users.noreply.github.com"]
 
   spec.summary       = "Arrow is a text-first Jekyll theme featuring minimal CSS by relying on default browser stylesheets to produce highly readable, responsive websites and blogs."
-  spec.homepage      = "https://github.com/cspablocortez/Arrow-Theme"
+  spec.homepage      = "https://github.com/cspablocortez/arrow-jekyll-theme"
   spec.license       = "GPL-3.0-or-later"
   
   spec.required_ruby_version = ">= 3.0"
