@@ -1,9 +1,12 @@
 title: Arrow Theme
-url: ""
+author: cspablocortez
+url: ""                             # your domain name
 baseurl: ""                         # leave blank if hosted at the root
 timezone: America/Los_Angeles
 description: >-
-  Arrow is a text-first Jekyll theme available as a Ruby gem.
+  Arrow is a text-first Jekyll theme featuring minimal CSS 
+  by relying on default browser stylesheets to produce highly readable, 
+  responsive websites and blogs.
   
 plugins:
   - jekyll-feed

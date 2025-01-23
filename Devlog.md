@@ -11,9 +11,6 @@ Starting the theme by modifying some of the old code I had set up in the old Git
 
 
 <time class="timestamp--date">2025-01-23</time>
-<time class="timestamp--time">02:58 AM</time>
-Adding a temp. bookmark to this page for packaging the theme as a Ruby gem once I finish it: <https://www.siteleaf.com/blog/making-your-first-jekyll-theme-part-2/>
-
 <time class="timestamp--time">03:21 AM</time>
 Defining the CSS variables for the theme.
 
