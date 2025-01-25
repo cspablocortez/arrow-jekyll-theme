@@ -61,6 +61,14 @@ nav a:visited {
   color: var(--color-links);
 }
 
+details:hover {
+  cursor: pointer;
+}
+
+details main {
+  padding: 1rem;
+}
+
 blockquote {
 	border-left: 2px solid gray;
 	padding-left: 1rem;
@@ -120,6 +128,10 @@ footer a:visited {
   font-weight: normal;
   margin: 0;
   font-size: 1rem;
+}
+
+a#all_posts, a#all_posts:visited {
+  color: var(--color-links);
 }
 
 #menu li {
