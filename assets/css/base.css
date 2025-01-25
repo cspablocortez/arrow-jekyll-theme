@@ -61,7 +61,11 @@ nav a:visited {
   color: var(--color-links);
 }
 
-details:hover {
+details {
+  margin-block: 1rem;
+}
+
+details:not([open]) {
   cursor: pointer;
 }
 
