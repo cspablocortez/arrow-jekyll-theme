@@ -3,8 +3,6 @@ layout: post
 title: Sample Article in English
 ---
 
-# Test Article for Arrow Theme
-
 Welcome to this test article. This is a sample paragraph to get a feel of the typography and spacing for this theme. Arrow leverages default browser stylesheets and adds styling only when necessary to ensure responsive design or enhance navigation.
 
 # Heading 1
@@ -40,10 +38,6 @@ I'll start with images, which should ideally have captions.
 
 ### Images
 
-Unfortunately, there are no images on the Standard Ebooks
-edition of _Oz_ I read, and I'm not sure why since the images are
-in the public domain too, I think.
-
 The first story in the George Saunders book I started
 earlier this week is called _In the Cart_ by Anton Chekhov. 
 
@@ -60,7 +54,7 @@ earlier this week is called _In the Cart_ by Anton Chekhov.
 Next, we can embed a YouTube video. Here is what I'm
 listening to as I write this.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BCxTQq0UiFs?si=Byc-rH3weHLC2PwC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/BCxTQq0UiFs?si=Byc-rH3weHLC2PwC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### Spotify
