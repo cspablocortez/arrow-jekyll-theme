@@ -5,7 +5,7 @@ layout: default
 
 <h1>{{ site.title }}</h1>
 
-Arrow is a text-first Jekyll theme available as a Ruby gem. It features minimal CSS by relying on default browser stylesheets to produce highly readable, responsive websites and blogs. 
+<p>{{ site.description }}</p>
 
 <h2>Latest Posts</h2>
 
@@ -17,7 +17,7 @@ Arrow is a text-first Jekyll theme available as a Ruby gem. It features minimal 
     </li>
     {% endfor %}
     
-    <p style="margin-top: 1.5rem;"><a href="{{ '/posts' | relative_url }}">View all posts →</a></p>
+    <p style="margin-top: 1.5rem;"><a id="all_posts" href="{{ '/posts' | relative_url }}">View all posts →</a></p>
 </ul>
 
 ## Features
