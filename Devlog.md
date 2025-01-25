@@ -102,6 +102,6 @@ Updating relative_url links for Github Pages deployment.
 <time class="timestamp--time">07:51 AM</time>
 Looks like I have to temporarily remove the base_url when developing locally.
 
-<time class="timestamp--time">2025-01-24</time>
+<time class="timestamp--date">2025-01-24</time>
 <time class="timestamp--time">09:07 AM</time>
 For some reason the version of Jekyll renders this devlog differently on my machine and online. I'm gonna have to fix it asap.
