@@ -8,13 +8,22 @@
   color: gray;
 }
 
+.article h1, 
+.article h2, 
+.article h3, 
+.article h4, 
+.article h5, 
+.article h6 {
+  font-family: "Georgia", sans-serif;
+}
+
 .tags {
   margin-top: 2rem;
 }
 
 .fin {
   text-align: center;
-  font-size: 90%;
+  font-size: 70%;
   color: var(--color-text--primary);
   margin-block: 1rem 2rem;
 }
@@ -30,4 +39,10 @@
   content: "";
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+@media screen and (min-width: 600px) {
+  .fin {
+    font-size: 90%;
+  }
 }
