@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "arrow-jekyll-theme"
-  spec.version       = "0.1.3"
+  spec.version       = "0.1.4"
   spec.authors       = ["Pablo E. Cortez"]
   spec.email         = ["57056367+cspablocortez@users.noreply.github.com"]
 
@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.0"
   
   spec.files = `git ls-files -z`.split("\x0").select do |f|
-      f.match(%r!^(assets|_(includes|layouts)/|(LICENSE|README|devlog|index|posts)((\.(txt|md|markdown)|$)))!i)
+      f.match(%r!^(assets|_(includes|layouts)/|(LICENSE|README|index|posts)((\.(txt|md|markdown)|$)))!i)
   end
   
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
