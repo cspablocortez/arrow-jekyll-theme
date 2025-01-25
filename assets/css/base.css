@@ -144,6 +144,7 @@ footer {
   font-size: 85%;
   display: block;
   max-width: fit-content;
+  margin-bottom: -1rem;
 }
 
 .timestamp--date {
