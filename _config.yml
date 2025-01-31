@@ -9,8 +9,8 @@ description: >-
   responsive websites and blogs.
   
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
-  - jekeyll-seo
   
 exclude:
   - devlog.md
