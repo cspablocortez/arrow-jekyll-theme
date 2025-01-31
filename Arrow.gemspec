@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "arrow-jekyll-theme"
-  spec.version       = "0.1.6"
+  spec.version       = "0.1.7"
   spec.authors       = ["Pablo E. Cortez"]
   spec.email         = ["57056367+cspablocortez@users.noreply.github.com"]
 
@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
   end
   
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
+  spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.18"
   spec.add_development_dependency "jekyll", ">= 3.5", "< 4.4.0"
 
 end

@@ -2,6 +2,7 @@
 layout: page
 title: Devlog
 date: 2025-01-22
+hidden: true
 permalink: devlog
 ---
 
@@ -105,3 +106,6 @@ Looks like I have to temporarily remove the base_url when developing locally.
 <time class="timestamp--date">2025-01-24</time>
 <time class="timestamp--time">09:07 AM</time>
 For some reason the version of Jekyll renders this devlog differently on my machine and online. I'm gonna have to fix it asap.
+
+<time class="timestamp--time">08:02 PM</time>
+Lighter colored 

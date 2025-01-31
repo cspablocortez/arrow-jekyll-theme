@@ -8,7 +8,22 @@ Arrow is a text-first Jekyll theme featuring minimal CSS by relying on default b
 
 You can check out a demo of the site [here](https://cspablocortez.github.io/arrow-jekyll-theme/)
 
-## Installation
+## Remote Theme
+
+The fastest way to get started is by using the [Jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) plugin.
+
+With the plugin installed, all you have to do is add the following line to your `_config.yml` file.
+
+```yaml
+remote_theme: cspablocortez/arrow-jekyll-theme
+```
+
+That's it! Build your site with `$ bundle exec jekyll serve`.
+
+Take some time to look over the available HTML partials so you can include them in your project as needed.
+
+
+## Gem Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
@@ -49,7 +64,6 @@ This will add the following files to your site:
 - index.md
 - about.md
 - post.md
-- devlog.md
 
 Feel free to change or delete any of these files as you see fit.
 
@@ -63,7 +77,6 @@ By default, you will find three layout files:
 - page.html
 - post.html
 
-The only difference between the page and post layouts is for displaying the date. The devlog is built using the page layout. 
 
 ## Utility Classes
 

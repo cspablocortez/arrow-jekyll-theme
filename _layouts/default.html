@@ -15,13 +15,18 @@
     <meta name="theme-color" content="#111" media="(prefers-color-scheme: dark)">
     
     {% feed_meta %}
+    {% seo %}
+    
+    {% include favicon.html %}
 
 </head>
 
 {% include header.html %}
 
-<main>
-    {{ content }}
-</main>
+<body>
+    <main>
+        {{ content }}
+    </main>
+</body>
 
 {% include footer.html %}
