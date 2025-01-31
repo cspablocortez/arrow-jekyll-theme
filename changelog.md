@@ -8,7 +8,7 @@ The following changelog reflects functional and stylistic updates.
 
 ## 2025-01-30 
 
-### Release Notes for version 0.1.7
+### Release Notes for version 1.0.0
 
 - README has been updated with instructions for installing Arrow as a remote theme. 
 
