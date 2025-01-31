@@ -6,6 +6,12 @@ title: Changelog
 
 The following changelog reflects functional and stylistic updates.
 
+## 2025-01-31
+
+### Release Notes for version 1.0.1
+
+- Bugfixes: Liquid filter typo for relative_urls, jekyll-seo-tag version fix 
+
 ## 2025-01-30 
 
 ### Release Notes for version 1.0.0
